@@ -2,7 +2,7 @@
 //
 // – створити функцію, яка приймає масив та виводить кожен його елемент
 
-let qwe = function (array ) {
+const qwe = (array ) => {
     for ( const item of array ) {
         console.log(item);
     }

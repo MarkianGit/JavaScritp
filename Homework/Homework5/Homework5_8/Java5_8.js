@@ -2,7 +2,7 @@
 //
 // – створити функцію, яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
-function list (arr) {
+const list =  (arr) => {
     const ul = document.createElement("ul");
     for ( let i = 0; i < arr.length; i++ ) {
         const li = document.createElement("li");

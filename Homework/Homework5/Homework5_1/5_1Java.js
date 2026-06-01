@@ -2,9 +2,8 @@
 //
 // – створити функцію, яка обчислює та повертає площу прямокутника зі сторонами а і б
 
-let area = function (a, b)
- {
-    return   a * b;
-}
+const sum = (a, b) => {
+    return a + b;
+};
 
-console.log(area (4, 5));
+console.log(sum(5, 4));

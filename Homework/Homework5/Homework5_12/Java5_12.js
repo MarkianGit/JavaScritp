@@ -2,7 +2,7 @@
 //
 // – створити функцію swap(arr,index1,index2). Функція міняє місцями значення у відповідних індексах
 
-function swap(arr,index1,index2) {
+const swap = (arr,index1,index2) => {
     let temp = arr[index1];
     arr[index1] = arr[index2];
     arr[index2] = temp;

@@ -2,7 +2,7 @@
 //
 // – створити функцію, яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
-function list (text) {
+const list =  (text) => {
  const ul = document.createElement("ul");
  for (let i = 0; i < 3; i++) {
      const li = document.createElement("li");
@@ -14,4 +14,4 @@ document.body.appendChild(ul);
 
 list( "Hello");
 
-//начебто код вірний, але хтмл нічого не виводить
+//начебто код вірний, але хтмл працює тільки тоді якщо я підключаю джава файл в середині скріпта
