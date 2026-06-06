@@ -21,7 +21,7 @@ let client = [];
 client.push(new Client(1, 'Олег', 'Петренко', 'oleg@example.com', '+380501111111', ['телефон', 'чохол']));
 client.push(new Client(2, 'Ганна', 'Сидоренко', 'anna@example.com', '+380672222222', ['ноутбук']));
 client.push(new Client(3, 'Ігор', 'Іваненко', 'igor@example.com', '+380933333333', ['кава', 'печиво', 'цукор']));
-client.push(new Client(4, 'Олена', 'Коваленко', 'elena@example.com', '+380504444444', [])); // пустой заказ тоже можно
+client.push(new Client(4, 'Олена', 'Коваленко', 'elena@example.com', '+380504444444', []));
 client.push(new Client(5, 'Дмитро', 'Ковальчук', 'dima@example.com', '+380675555555', ['книга']));
 client.push(new Client(6, 'Марія', 'Васильчук', 'masha@example.com', '+380936666666', ['сукня', 'туфлі']));
 client.push(new Client(7, 'Віталій', 'Попович', 'vitalik@example.com', '+380507777777', ['навушники']));

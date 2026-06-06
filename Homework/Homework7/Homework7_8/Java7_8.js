@@ -39,7 +39,7 @@ class Prince {
 }
 let prince = new Prince('Чарівний Принц', 23, 37);
 
-let Popelushkatrue = null;
+let Popelushkatrue = null; // не впевнений що тут потрібен null
 
 
 for (const girl of popelushkyArray) {
