@@ -70,3 +70,6 @@ for (const course of coursesArray) {
     
     document.body.appendChild(Div);
 }
+
+
+//////////////////////
