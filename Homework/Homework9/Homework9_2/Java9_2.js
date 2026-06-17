@@ -26,7 +26,7 @@ const Items = [`Main`, `Products`, `About us`, `Contacts`];
 
 let ul = document.createElement("ul");
 
-for (const item of Array) {
+for (const item of Items) {
     let li = document.createElement("li");
     li.classList.add("li");
     li.innerText = item;
