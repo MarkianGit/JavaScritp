@@ -12,10 +12,10 @@ checkBtn.addEventListener('click', function() {
 
 
     if (age >= 18) {
-        resultMessage.textContent = "Ви повнолітній(я). Доступ дозволено!";
+        resultMessage.textContent = "+";
         resultMessage.style.color = "green";
     } else {
-        resultMessage.textContent = "+";
+        resultMessage.textContent = "-";
         resultMessage.style.color = "red";
     }
 });
